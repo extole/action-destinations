@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing snapshot for actions-extole-destination destination: identifyUser action - all fields 1`] = `
+Object {
+  "email": "temuve@ravheliji.rs",
+  "extole_app": "Segment Destination App",
+  "extole_consumer_ip": "mFJoL",
+  "partner_anonymous_id": "mFJoL",
+  "partner_user_id": "mFJoL",
+  "traits": Object {
+    "testType": "mFJoL",
+  },
+}
+`;
+
+exports[`Testing snapshot for actions-extole-destination destination: identifyUser action - required fields 1`] = `
+Object {
+  "extole_app": "Segment Destination App",
+  "partner_anonymous_id": "mFJoL",
+  "partner_user_id": "mFJoL",
+}
+`;
+
+exports[`Testing snapshot for actions-extole-destination destination: trackEvent action - all fields 1`] = `
+Object {
+  "data": Object {
+    "email": "fog@duin.pm",
+    "event_time": "2021-02-01T00:00:00.000Z",
+    "extole_app": "Segment Destination App",
+    "extole_consumer_ip": "#2!NlIi1hMSzMO",
+    "partner_anonymous_id": "#2!NlIi1hMSzMO",
+    "partner_user_id": "#2!NlIi1hMSzMO",
+    "testType": "#2!NlIi1hMSzMO",
+  },
+  "event_name": "#2!NlIi1hMSzMO",
+}
+`;
+
+exports[`Testing snapshot for actions-extole-destination destination: trackEvent action - required fields 1`] = `
+Object {
+  "data": Object {
+    "event_time": "2021-02-01T00:00:00.000Z",
+    "extole_app": "Segment Destination App",
+    "partner_anonymous_id": "#2!NlIi1hMSzMO",
+    "partner_user_id": "#2!NlIi1hMSzMO",
+  },
+  "event_name": "#2!NlIi1hMSzMO",
+}
+`;
